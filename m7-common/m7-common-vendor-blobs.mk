@@ -19,8 +19,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/bin/ks:/system/bin/ks \
         vendor/htc/m7-common/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/m7-common/proprietary/bin/mpdecision:/system/bin/mpdecision \
-        vendor/htc/m7-common/proprietary/bin/netmgrd:/system/bin/netmgrd \
-        vendor/htc/m7-common/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/m7-common/proprietary/bin/thermald:/system/bin/thermald \
         vendor/htc/m7-common/proprietary/etc/tfa/deftcoefA_l.speaker:/system/etc/tfa/deftcoefA_l.speaker \
         vendor/htc/m7-common/proprietary/etc/tfa/deftcoefA.speaker:/system/etc/tfa/deftcoefA.speaker \
@@ -85,7 +83,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/lib/libacdbloader.so:/system/lib/libacdbloader.so \
         vendor/htc/m7-common/proprietary/lib/libaudcal.so:/system/lib/libaudcal.so \
         vendor/htc/m7-common/proprietary/lib/libcsd-client.so:/system/lib/libcsd-client.so \
-        vendor/htc/m7-common/proprietary/lib/hw/vendor-camera.msm8960.so:/system/lib/hw/vendor-camera.msm8960.so \
+        vendor/htc/m7-common/proprietary/lib/hw/camera.vendor.msm8960.so:/system/lib/hw/camera.vendor.msm8960.so \
         vendor/htc/m7-common/proprietary/lib/libBeautyChat.so:/system/lib/libBeautyChat.so \
         vendor/htc/m7-common/proprietary/lib/libcameraasd.so:/system/lib/libcameraasd.so \
         vendor/htc/m7-common/proprietary/lib/libcameraface.so:/system/lib/libcameraface.so \
@@ -163,11 +161,14 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:/system/vendor/lib/egl/libGLESv2S3D_adreno.so \
         vendor/htc/m7-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:/system/vendor/lib/egl/libq3dtools_adreno.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libadreno_utils.so:/system/vendor/lib/libadreno_utils.so \
-        vendor/htc/m7-common/proprietary/vendor/lib/libc2d2_a3xx.so:/system/vendor/lib/libc2d2_a3xx.so \
-        vendor/htc/m7-common/proprietary/vendor/lib/libc2d2_z180.so:/system/vendor/lib/libc2d2_z180.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libc2d30-a3xx.so:/system/vendor/lib/libc2d30-a3xx.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libc2d30.so:/system/vendor/lib/libc2d30.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libC2D2.so:/system/vendor/lib/libC2D2.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libllvm-a3xx.so:/system/vendor/lib/libllvm-a3xx.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/librs_adreno_sha1.so:/system/vendor/lib/librs_adreno_sha1.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/librs_adreno.so:/system/vendor/lib/librs_adreno.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libRSDriver_adreno.so:/system/vendor/lib/libRSDriver_adreno.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libsc-a3xx.so:/system/vendor/lib/libsc-a3xx.so \
         vendor/htc/m7-common/proprietary/etc/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
         vendor/htc/m7-common/proprietary/etc/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
@@ -199,29 +200,14 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/etc/firmware/tzapps.b02:/system/etc/firmware/tzapps.b02 \
         vendor/htc/m7-common/proprietary/etc/firmware/tzapps.b03:/system/etc/firmware/tzapps.b03 \
         vendor/htc/m7-common/proprietary/etc/firmware/tzapps.mdt:/system/etc/firmware/tzapps.mdt \
-        vendor/htc/m7-common/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
-        vendor/htc/m7-common/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
-        vendor/htc/m7-common/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
-        vendor/htc/m7-common/proprietary/lib/libidl.so:/system/lib/libidl.so \
-        vendor/htc/m7-common/proprietary/lib/libqcci_legacy.so:/system/lib/libqcci_legacy.so \
-        vendor/htc/m7-common/proprietary/lib/libqdi.so:/system/lib/libqdi.so \
-        vendor/htc/m7-common/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi_cci.so:/system/lib/libqmi_cci.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi_client_qmux.so:/system/lib/libqmi_client_qmux.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi_common_so.so:/system/lib/libqmi_common_so.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi_csi.so:/system/lib/libqmi_csi.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi_encdec.so:/system/lib/libqmi_encdec.so \
-        vendor/htc/m7-common/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
-        vendor/htc/m7-common/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
-        vendor/htc/m7-common/proprietary/lib/libqc-opt.so:/system/lib/libqc-opt.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
         vendor/htc/m7-common/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
         vendor/htc/m7-common/proprietary/lib/libimu.so:/system/lib/libimu.so \
         vendor/htc/m7-common/proprietary/lib/libmllite.so:/system/lib/libmllite.so \
         vendor/htc/m7-common/proprietary/lib/libmlplatform.so:/system/lib/libmlplatform.so \
         vendor/htc/m7-common/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
         vendor/htc/m7-common/proprietary/lib/libmpl_jni.so:/system/lib/libmpl_jni.so \
-        vendor/htc/m7-common/proprietary/lib/libQSEEComAPI.so:/system/lib/libQSEEComAPI.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/m7-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
         vendor/htc/m7-common/proprietary/etc/firmware/BCM4335B0_002.001.006.0296.0297.hcd:/system/etc/firmware/BCM4335B0_002.001.006.0296.0297.hcd \
