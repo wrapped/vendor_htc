@@ -152,9 +152,9 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/etc/tfa/tfa9895_l.speaker:/system/etc/tfa/tfa9895_l.speaker \
         vendor/htc/m8/proprietary/etc/tfa/tfa9895.patch:/system/etc/tfa/tfa9895.patch \
         vendor/htc/m8/proprietary/etc/tfa/tfa9895.speaker:/system/etc/tfa/tfa9895.speaker \
-        vendor/htc/m8/proprietary/etc/tfa/voice_l.drc:/system/etc/tfa/voice.drc \
+        vendor/htc/m8/proprietary/etc/tfa/voice_l.drc:/system/etc/tfa/voice_l.drc \
         vendor/htc/m8/proprietary/etc/tfa/voice.drc:/system/etc/tfa/voice.drc \
-        vendor/htc/m8/proprietary/etc/tfa/voice_l.eq:/system/etc/tfa/voice.eq \
+        vendor/htc/m8/proprietary/etc/tfa/voice_l.eq:/system/etc/tfa/voice_l.eq \
         vendor/htc/m8/proprietary/etc/tfa/voice.eq:/system/etc/tfa/voice.eq \
         vendor/htc/m8/proprietary/etc/tfa/voice_l.preset:/system/etc/tfa/voice_l.preset \
         vendor/htc/m8/proprietary/etc/tfa/voice.preset:/system/etc/tfa/voice.preset \
