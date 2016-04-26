@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/blobs/vzw/bin/qmuxd:/system/blobs/vzw/bin/qmuxd \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libdiag.so:/system/blobs/gsm/vendor/lib/libdiag.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libdsi_netctrl.so:/system/blobs/gsm/vendor/lib/libdsi_netctrl.so \
+        vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libdsnetutils.so:/system/blobs/gsm/vendor/lib/libdsnetutils.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libdsutils.so:/system/blobs/gsm/vendor/lib/libdsutils.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libidl.so:/system/blobs/gsm/vendor/lib/libidl.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqcci_legacy.so:/system/blobs/gsm/vendor/lib/libqcci_legacy.so \
