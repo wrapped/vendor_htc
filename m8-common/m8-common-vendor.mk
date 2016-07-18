@@ -122,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8-common/proprietary/lib/libcamera_awb.so:system/lib/libcamera_awb.so \
     vendor/htc/m8-common/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/m8-common/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+    vendor/htc/m8-common/proprietary/lib/libcnefeatureconfig.so:/system/lib/libcnefeatureconfig.so \
     vendor/htc/m8-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/htc/m8-common/proprietary/lib/libhtccamera_yushaniiproc.so:system/lib/libhtccamera_yushaniiproc.so \
     vendor/htc/m8-common/proprietary/lib/libhtc_depthmap.so:system/lib/libhtc_depthmap.so \
@@ -131,6 +132,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/htc/m8-common/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
     vendor/htc/m8-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/htc/m8-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/htc/m8-common/proprietary/lib/libtuning_aec_ar1820_video.so:system/lib/libtuning_aec_ar1820_video.so \
     vendor/htc/m8-common/proprietary/lib/libtuning_aec_ar1820_zsl.so:system/lib/libtuning_aec_ar1820_zsl.so \
     vendor/htc/m8-common/proprietary/lib/libtuning_aec_ov2722_hdr.so:system/lib/libtuning_aec_ov2722_hdr.so \
